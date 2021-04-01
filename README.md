@@ -1,7 +1,7 @@
-# OCI
+# OCI - Script para agendar Start/Stop de Recursos
 O oci não possui nenhum recurso para agendamento de start/stop de recursos, para podermos desligar e ligar recursos automaticamente, podemos utilizar uma vm do tipo always free.
 
-## Subindo uma vm alway free
+## Subindo uma vm always free
 Entre na console web, vá até a opção para criar uma nova instância, nas opções selecione um shape always free disponível
 
 ## Habilitando a CLI
