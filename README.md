@@ -8,5 +8,7 @@ Entre na console web, vá até a opção para criar uma nova instância, nas op�
 Para habilitar a cli que será responsável por enviar os comandos de start/stop siga a documentação https://docs.oracle.com/pt-br/iaas/Content/API/SDKDocs/cliinstall.htm
 
 ## Usando o script
+### Para saber o OCID da VM que irá ligar/desligar, vá até os detalhes da VM no console
+### Para saber mais sobre os comandos que podem ser enviados, vá até a documentação em https://docs.oracle.com/en-us/iaas/tools/oci-cli/2.12.7/oci_cli_docs/cmdref/compute/instance/action.html
 A execução do script é simples, copie ele para um local de sua preferência, para desligar uma vm execute ```"sh ocistartstop SOFTSTOP ociddavm"``` o log será salvo no /var/log
 para ligar uma vm execute ```"sh START ociddavm"```
